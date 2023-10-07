@@ -37,7 +37,7 @@ class Player:
 lista_usuarios = []
 		
 
-def principal():
+def main():
 	global lista_usuarios
 	nome = input("Seja bem-vindo ao jogo Cidade Dorme!\n\nPor favor, digite seu nome para jogar: ")
 	print("\n" + nome + ",", "você estará jogando com outros 7 jogadores.\n\nHá um mafioso solto pela cidade...\nFelizmente, ainda temos um doutor e um xerife por aí...")
@@ -327,4 +327,4 @@ def acusa(quantidade_vivos):
 	return [quantidade_vivos, humano_eliminado]
 						
 		
-principal()
+main()
